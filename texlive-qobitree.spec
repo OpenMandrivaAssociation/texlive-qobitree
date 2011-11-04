@@ -45,6 +45,7 @@ then issue the \tree command to typeset the whole.
 %{_texmfdistdir}/tex/latex/qobitree/qobitree.tex
 %doc %{_texmfdistdir}/doc/latex/qobitree/README
 %doc %{_texmfdistdir}/doc/latex/qobitree/example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ then issue the \tree command to typeset the whole.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
