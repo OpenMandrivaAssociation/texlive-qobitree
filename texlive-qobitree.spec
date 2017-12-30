@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-qobitree
-Version:	20081130
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	LaTeX macros for typesetting trees
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/qobitree
