@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/qobitree
-# catalog-date 2008-11-30 00:16:40 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-qobitree
 Version:	20170414
 Release:	1
@@ -33,9 +27,8 @@ then issue the \tree command to typeset the whole.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/qobitree/qobitree.tex
-%doc %{_texmfdistdir}/doc/latex/qobitree/README
-%doc %{_texmfdistdir}/doc/latex/qobitree/example.tex
+%{_texmfdistdir}/tex/latex/qobitree
+%doc %{_texmfdistdir}/doc/latex/qobitree
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,17 +39,3 @@ then issue the \tree command to typeset the whole.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081130-2
-+ Revision: 755564
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081130-1
-+ Revision: 719420
-- texlive-qobitree
-- texlive-qobitree
-- texlive-qobitree
-- texlive-qobitree
-
