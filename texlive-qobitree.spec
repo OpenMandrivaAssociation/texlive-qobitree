@@ -1,6 +1,6 @@
 Name:		texlive-qobitree
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	LaTeX macros for typesetting trees
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/qobitree
