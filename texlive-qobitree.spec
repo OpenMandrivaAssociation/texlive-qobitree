@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	LaTeX macros for typesetting trees
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/qobitree
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/qobitree
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/qobitree.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/qobitree.doc.r%{version}.tar.xz
